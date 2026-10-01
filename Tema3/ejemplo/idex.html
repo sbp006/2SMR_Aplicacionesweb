@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo repaso apuntes CSS</title>
+<!--Aqui ponemos el estilo para que siempre aparezcan los parrafos en rojo y a 20px-->
+<!--Con color cambiamos el color del parafo, con size el tamaño y 
+    con bckgroun-color subrallamos-->
+<!-- Este CSS afecta a toda a la pagina pero solo a los parrafos ya que pusimos <p>, 
+y solo afecta al index. Esta opcion no es la recomendada
+<style> 
+    p{
+        color: red;
+        font-size: 20px;
+        background-color: blue; 
+
+    }
+        -->
+       <!--Esta es la opcion recomendada, creamos una carpeta llamada CSS 
+       y dentro un archivo.css y hay ponemos los estilos, colores, etc.
+       Despues lo conectamos con enlace de debajo-->
+       <link rel="stylesheet" href="css/estilo.css">
+</style>
 </head>
 <body>
-         <!--CSS en linea-->
+         <!--CSS en linea
    <p style="color: red; font-size: 20px";>Hola, soy Sergio</p> 
+   <p>y estudio ciclo de SMR</p>-->
+
+   <!--Con etiqueta style dentro de mi head-->
+
+   <p>Hola, soy Sergio</p> 
+   <p>y estudio ciclo de SMR</p>
+
+   <p>Este parrafo es violeta</p>
+   <p id="estiloparrafo"> Este es amarillo, soy el unico elemento</p>
+   <h1 class="curso">Ciclo formativo</h1>
+   <p>SMR</p>
+
+   
 </body>
 </html>
