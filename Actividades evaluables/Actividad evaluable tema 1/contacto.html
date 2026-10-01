@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+         <!--Menu de navegación encabezado de la web-->
+     <fieldset>
+            <legend>Menu de navegación</legend>
+    <a href="index.html" >Pagina de inicio|</a>
+    <a href="contacto.html" > Formulario de contacto|</a>
+    <a href="horario.html" >Horario académico</a>
+    </fieldset>
+      <!--Aqui va el titulo de la pagina-->
+    <h1>Formulario de contacto</h1> 
+
+            <!--Aqui va un formulario que emvia los datos a datos.php mediante post-->
+                <!--Method::
+             Post: Mas seguridad (Seguridad)
+            Get: Menos seguridad (Pruebas)
+            -->
+        <form action="datos.php" method="post">
+                <!--Aqui creamos la primera columna del formulario con un fieldset, la cual sera de datos personales-->
+            <fieldset>
+                    <legend>Formulario datos personales</legend>
+    <!--Aqui iniciamos con un <h3> y un <label=for""" que sirve para asociar un texto con un campo del formulario-->
+        <h3><label for="nombre">Nombre</label></h3> 
+    <!--con el <imput type="" selecionamos si es un numero un texto, etc. El <name="" es para selecionar el nombre 
+    y el placeholder="" es para poner un texto de ejemplo dentro del campo-->
+        <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre"> 
+
+    <h3><label for="apellido">Apellido</label></h3>
+    <input type="text" id="apellido" name="apellido" placeholder="Introduce tus apellidos">
+  
+    <h3><label for="correo">Correo</label></h3>
+    <input type="email" id="correo" name="correo" placeholder="Introduce tu correo">
+    
+    <h3><label for="clave">Contraseña</label></h3>
+    <input type="password" id="clave" name="clave" placeholder="Introduce tu contraseña">
+
+    <h3><label for="clavev">Confirmacion de contraseña</label></h3>
+    <input type="password" id="clavev" name="clavev" placeholder="Repita su contraseña">
+
+      <h3><label for="edad">Edad</label></h3>
+    <input type="number" id="edad" name="edad" placeholder="Introduce tu edad" value="18"> <!--Con el value="" ponemos un valor por defecto, un texto, numero, etc-->
+    <br><br>
+</fieldset>
+
+<!--Aqui va un despegable con diferentes ciudades de Andalucia-->
+<fieldset>
+    <legend>Ciudad de Origen</legend>
+
+     <select name="lista"><!--Creamos un despagable con el select-->
+        
+        <!--Aqui creamos las opciones del despegable con <option value="", lo que esta en las comillas del value es el valor que se envia
+         y lo que pone a la derecha del > es lo que nos muestra a los usuarios, 
+         es recomendable que dentro del value no pongamos mayusculas ni tildes-->
+        <option value="jaen">Jaén</option> 
+        <option value="granada">Granada</option>
+        <option value="sevilla">Sevilla</option>
+        <option value="malaga">Málaga</option>
+        <option value="huelva">Huelva</option>
+            
+            </select>
+
+</fieldset>
+
+    <!--Aqui va unas casillas de verificación con diferentes aficiones-->
+<fieldset>
+     <legend>Gustos</legend>
+     
+     <!--En <input type="" escribimos checkbox para crear una casilla de verificacion, 
+     posteriormente configuramos el nombre, id y el valor-->
+        
+     <input type="checkbox" id="elemento1" name="elemento1" value="Videojuegos">   
+        <label for="elemento1">Jugar videojuegos</label><br>
+        
+        <input type="checkbox" id="elemento2" name="elemento2" value="Familia">
+        <label for="elemento2">Pasar tiempo con la familia</label><br>
+       
+        <input type="checkbox" id="elemento3" name="elemento3" value="Deporte" checked="true">
+        <label for="elemento3">Hacer deporte</label><br>
+       
+        <input type="checkbox" id="elemento4" name="elemento4" value="Amigos">
+        <label for="elemento4">Salir con los amigos</label>
+
+    </fieldset>
+
+        <!--Aqui va un <textarea> para poder escribir información adicional-->
+    <fieldset>
+        <legend>Información adicional</legend>
+
+        <label for="comentario">Comentarios:</label><br>
+            <!--Un text area para poder meter información adicional, el rows y el cols es para el tamaño-->
+        <textarea id="comentario" name="comentario" rows="10" cols="50" placeholder="Escriba aquí información que crea importante"></textarea><br>
+        <button type="submit">Enviar</button>  <!--Boton para enviar la información escrita-->
+        <button type="reset">Borrar</button>   <!--Boton para borrar la información escrita-->
+    
+</fieldset>
+
+    <!--Aqui va un menu de navegación en la parte baja de la web-->
+<fieldset>
+    <legend>Menu de navegación</legend>
+
+        <a href="index.html" >Pagina de inicio|</a>
+        <a href="horario.html" >Horario académico</a>
+
+</fieldset>
+    
+</form>
+
+</body>
+</html>
