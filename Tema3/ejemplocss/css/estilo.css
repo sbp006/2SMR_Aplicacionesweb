@@ -1,0 +1,9 @@
+
+
+/*
+*Cambiamos el color a todos los <h1>, se hace poniendo h1 y {, posteriormente ponemos el color, estilo etc
+*/
+h1 {
+    color: navy;
+    text-decoration: underline;
+}
