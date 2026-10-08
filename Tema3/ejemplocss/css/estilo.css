@@ -1,9 +1,51 @@
 
+/*CSS de la Web de Sergio*/
+
+/*Cambiamos todo el body*/
+body{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*
+    background-image: url("../img/imagen1.jpg"); */ /* para poner imagenes de fondo, en este caso dentro del body
+    background-repeat: repeat */ 
+}
+
 
 /*
-*Cambiamos el color a todos los <h1>, se hace poniendo h1 y {, posteriormente ponemos el color, estilo etc
+-Estilo CSS de los H1
+Cambiamos el color a todos los <h1>, se hace poniendo h1 y {, posteriormente ponemos el color, estilo etc
 */
 h1 {
     color: navy;
-    text-decoration: underline;
+    text-decoration: underline; /*El underline sirve para subrallar*/
+    text-decoration-color: orange;/*Cambia el color del subrallado*/
+    text-decoration-style: wavy; /*Lo curva el subrallado*/
+}
+
+/*
+-Estilo CSS de los H2
+*/
+
+h2{
+color: teal;
+}
+
+/*
+-Estilo CSS de los <a> para los enlaces web
+*/
+a{
+text-decoration: none;/*Si dentro del text-decoration ponemos none le quitamos los estilos por defecto*/
+
+}
+
+#titulo{ /*Cambiamos el estilo al id (titulo)*/
+    color: gray;
+    text-align: center; /*Centra el texto*/
+    font-style: italic;  /*Italic sirve para poner la letra en cursiva*/
+}
+
+.favorito{ /*Cambiamos el estilo del clave llamado (Favorit0)*/
+    color: red;
+    font-weight: bold; /*Cambiamos el tamaño de las letras, con bold lo ponemos grande y en negrita*/
 }
