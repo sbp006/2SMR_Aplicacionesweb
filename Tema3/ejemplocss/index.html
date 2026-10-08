@@ -4,31 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modulo SMR</title>
-       <link rel="stylesheet" href="css/estilo.css">
+       <link rel="stylesheet" href="css/estilo.css"><!--Conectamos el index con la carpeta de estilos del CSS-->
 
 </head>
 <body>
         <!--Aqui va un titulo-->
     <h1>Aplicaciones Web</h1>
+    <!--El id lo usamos para cosas concretas sin enbargo el class es mas comun de usar, 
+    su funcion es la misma, la mayoria de veces es solo para dar importancia-->
     <p id="titulo">Modulos de ciclo formativo de grado medio de SMR</p>
     <hr>
+   
     <!--Primer curso con lista desordenada-->
-    <h2>Primer curso</h2>
+    <div class="curso">
+    <h2 class="listaA">Primer curso</h2> 
     <ul>
         <li>Montaje y mantenimiento de equipos</li>
         <li class="favorito">Aplicaiones ofimaticas</li>
         <li>Sistemas operativos monopuestos</li>
         <li>Redes locales</li>
     </ul>
+    </div>
+    
     <!--Segundp curso con lista desordenada-->
-    <h2>Segundo curso</h2>
+    <div class="curso"> <!--Crea cajones y le podemos dar estilo para separarlos como un fieldset-->
+    <h2 class="listaB">Segundo curso</h2>
     <ul>
         <li>Servicios en Red</li>
         <li class="favorito">Sistemas operativos en Red</li>
         <li>Seguridad informatica</li>
         <li>Aplicaciones web</li>
     </ul>
+    </div>
+
     <!--Parrafo y dentro enlace a la web de medac-->
-<p>Mas informacion en la <a href="https://medac.es/" >Web de MEDAC</a></p>
+<p>Mas informacion en la <a href="https://medac.es/" target="_blank" >Web de MEDAC</a></p>
+<p>Información de marca <a href="https://marca.es/" target="_blank" >Web de MEDAC</a></p>
 </body>
 </html>

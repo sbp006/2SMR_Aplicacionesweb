@@ -39,13 +39,44 @@ text-decoration: none;/*Si dentro del text-decoration ponemos none le quitamos l
 
 }
 
+/*id Titutlo*/
 #titulo{ /*Cambiamos el estilo al id (titulo)*/
     color: gray;
     text-align: center; /*Centra el texto*/
     font-style: italic;  /*Italic sirve para poner la letra en cursiva*/
 }
-
-.favorito{ /*Cambiamos el estilo del clave llamado (Favorit0)*/
+/*CLass favorito*/
+.favorito{ /*Cambiamos el estilo del class llamado (Favorit0)*/
     color: red;
     font-weight: bold; /*Cambiamos el tamaño de las letras, con bold lo ponemos grande y en negrita*/
+}
+/*CLass listaA*/
+.listaA{
+    color: white;
+    background-color: teal; /*Con background-color cambiamos el fondo en este caso es id listA el texto es blanco pero el fondo azul*/
+}
+/*CLass listaB*/
+.listaB{
+    background-color: #914334;
+    color: white;
+}
+
+/*Class curso*/
+.curso{
+    border: 2px solid teal;
+    border-radius: 10px; /*Damos un radio al borde*/
+    margin: 20px; /*Creamos un margen de separación*/
+    padding: 20px; /*En este caso el pading sirve para la separación del borde al texto*/
+}
+/*Enlace no visitado*/
+a:link{ /*Cambiamos el color de cuando no lo hemos visitado*/
+    color: red;
+    }
+/*Enlace visitado*/
+a:visited{ /*Cambiamos el color de cuando  lo hemos visitado*/
+    color: rgb(255, 0, 128);
+}
+/*Enlace subrallado*/
+a:hover{
+    background-color: orange; /*Subralla, en este caso como pusimos a pues subrallamos los enlaces*/
 }
