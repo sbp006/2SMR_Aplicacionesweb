@@ -8,7 +8,7 @@ body{
 
     /*
     background-image: url("../img/imagen1.jpg"); */ /* para poner imagenes de fondo, en este caso dentro del body
-    background-repeat: repeat */ 
+    background-repeat: repeat ##esto es para que la imagen no se repita##*/ 
 }
 
 
