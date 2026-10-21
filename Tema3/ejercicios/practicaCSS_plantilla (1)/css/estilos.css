@@ -1,0 +1,14 @@
+/* =========================================================
+   Práctica 1 — Hoja de estilos del Club de Informática SMR
+   Nombre y apellidos: Sergio Blanca Pancorbo
+   ========================================================= */
+
+/* Escribe aquí tu CSS. Recuerda: cada regla con un comentario
+   que explique, con tus palabras, para qué sirve. */
+
+   /* Aqui cambiamos el color del Body, su estilo de letra y el color de fondo*/
+   body {
+      color: black;
+      font-family: 'Poppins', sans-serif;
+      background-color: #39FF88;
+   }
