@@ -212,7 +212,7 @@ button {
 
    /*Aqui cambiamos el estilo de cuando pasamos con el raton por el boton*/
 button:hover {
-    background-color: #f31414; /*Aqui cambiamos el color de fondo de cuando pasa por encima el ratón*/
+    background-color: red; /*Aqui cambiamos el color de fondo de cuando pasa por encima el ratón*/
 }
 
    /*Aqui cambiamos el color del botón de borrar*/
@@ -223,7 +223,7 @@ background-color: #122423; /*Aqui cambiamos el color del fondo del botón de bor
    /*Aqui creamos el estilo del pie de pagina*/
 #pie p{
    color: white; /*Aqui cambiamos el color del texto*/
-   background-color: #12294a; /*Aqui cambiamos el color del fondo*/
+   background-color: rgb(18, 41, 74); /*Aqui cambiamos el color del fondo*/
    text-align: center; /*Aqui centramos el texto*/
 }
 
