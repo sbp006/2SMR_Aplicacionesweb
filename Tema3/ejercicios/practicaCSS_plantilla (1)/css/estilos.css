@@ -53,6 +53,7 @@ nav a {
    /*Aqui vamos a cambiar el color al pasar el ratón*/
 nav a:hover {
    background-color: #c74cc1;   /*Aqui cambiamos el color de fondo cuando tenemos el ratón encima*/
+  
 }
 
    /*Aqui vamos a dar estilo a los h2*/
@@ -72,12 +73,161 @@ p{
 
    /*Aqui vamos a darle el mismo estilo a las 3 primeras columnas del index*/
 .Preguntasi {
-   background-color: #d59ad8;
-   border: 2px solid #12294a;
-   padding: 20px;
-   margin: 20px;
-   border-radius: 10px;
+   background-color: #d59ad8; /*Aqui cambiamos el color de fondo*/
+   border: 2px solid #12294a; /*Aqui selecionamos el borde*/
+   padding: 20px; /*Aqui creamos el espacio interior*/
+   margin: 20px; /*Aqui creamos una separación*/
+   border-radius: 10px; /*Aqui redondeamos las esquinas*/
 }
+
+   /*Aqui creamos el estilo a la lista desordenada*/
+ul {
+   color: #d5f72a; /*Aqui cambiamos el color de la letra*/
+   font-size: 17px;  /*Aqui cambimos el tamaño de la letra*/
+   line-height: 1.8; /*Aqui creamos el interlineado a los parrafos*/
+   font-variant: small-caps; /*Aqui creamos las versalitas*/
+}
+
+   /*Aqui creamos el estilo a la lista desordenada*/
+ol {
+   color: #0c9607; /*Aqui cambiamos el color de la letra*/
+   font-size: 17px; /*Aqui cambimos el tamaño de la letra*/
+   line-height: 1.8; /*Aqui creamos el interlineado a los parrafos*/
+   font-variant: small-caps; /*Aqui creamos las versalitas*/
+}
+
+.destacado {
+    color: #fb0795; /*Aqui cambiamos el color de la letra*/
+   font-size: 17px; /*Aqui cambimos el tamaño de la letra*/
+   line-height: 1.8; /*Aqui creamos el interlineado a los parrafos*/
+   font-variant: small-caps; /*Aqui creamos las versalitas*/
+   font-weight: bold;  /*Aqui ponemos la negrita*/
+   background-color: #12294a; /*Aqui creamos un color de fondo*/
+}
+
+   /*Aqui le damos estilo a los enlaces no visitados*/
+ a:link {
+    color: #12294a; /*Aqui cambiamos el color*/
+    text-decoration: none; /*Aqui lo ponemos sin subrayado*/
+    font-weight: bold; /*Aqui ponemos el texto en negrita*/
+}
+
+/*Aqui le damos estilo a los enlaces ya visitados*/
+ a:visited {
+    color: #ed0b29; /*Aqui cambiamos el color*/
+    text-decoration: underline; /*Aqui le ponemos un subrayado*/
+}
+
+/*Aqui le damos estilo a los enlaces que pasamos por encima con el raton*/
+ a:hover {
+    color: #4ae204; /*Aqui cambiamos el color*/
+    text-decoration: underline; /*Aqui le ponemos subrayado*/
+    font-weight: bold; /*Aqui le ponemos negrita*/
+}
+
+   /*Aqui centramos la tabja y ajustamos la separación*/
+table {
+    width: 80%; /*Aqui ajustamos el ancho del contenido */
+    margin-left: auto; /*Aqui creamos la separacion izquierda*/
+    margin-right: auto; /*Aqui creamos la separacion derecha*/
+}
+
+/*Aqui ajustamos los bordes y rellenamos las celdas*/
+th, td {
+    border: 2px solid #12294a; /*Aqui ponemos el grosor, estilo y color*/
+    padding: 10px; /*Aqui creamos el espacio interior*/
+    text-align: center; /*Aqui centramos*/ 
+}
+
+/*Aqui cambiamos la fila de la cabecera*/
+th {
+    background-color: #12294a; /*Aqui cambiamos el color de fondo*/
+    color: white; /*Aqui cambiamos el color del texto*/
+    font-size: 20px; /*Aqui cambiamos el tamaño del texto*/
+    text-decoration: underline; /*Aqui creamos el subrayado*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+caption{
+   color: #000000; /*Aqui cambiamos el color del texto*/
+   font-weight: bold; /*Aqui ponemos negrita*/
+   text-decoration: underline;   /*Aqui subrayamos el texto*/
+   font-size: 30px; /*Aqui ponemos el tamaño de la letra*/
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Aqui cambiamos el estilo de letra*/
+}
+
+   /*Aqui pondremas para alternar el color de las filas*/
+tr:nth-child(even) {                 
+    background-color: #4dd9f8; /*Cambiamos el color de las columnas de la tabla*/
+}
+
+/*Aqui cambiamos e estilo del fieldset*/
+fieldset {
+    border: 2px solid #12294a; /*Aqui ponemos el grosor, el estilo y el color*/
+    border-radius: 10px; /*Aqui redondeamos las esquinas*/
+    margin: 20px; /*Aqui creamos una separación*/
+    padding: 15px;  /*Aqui creamos el relleno interior*/
+    background-color: #d59ad8; /*Aqui ponemos un color de fondo*/
+}
+
+/* Estilo del legend */
+legend {
+    color: #cc0e0e; /*Aqui cambiamos el color del texto*/
+    font-size: 20px; /*Aqui cambiamos el tamaño de la letra*/
+    font-weight: bold; /*Aqui ponemos negrita*/
+    padding: 5px 10px; /*Aqui creamos una separación*/
+}
+
+/*Aqui creamos el ancho y la separación del formulario*/
+form {
+    max-width: 500px; /*Aqui establecemos un ancho maximo de 500 px*/
+    margin: 20px auto; /*Aqui creamos una separación*/
+}
+
+   /*Aqui cambiamos el estilo de los campos de texto*/
+input[type="text"], input[type="email"], input[type="password"], select,textarea {
+    width: 90%;                     /* Ancho del campo */
+    padding: 8px;                   /* Relleno interior */
+    border: 2px solid #12294a;      /* Borde */
+    border-radius: 5px;             /* Esquinas redondeadas */
+    background-color: white;        /* Fondo */
+    margin: 5px 0;                  /* Separación entre campos */
+}
+
+   /*Aqui cambiamos el color del borde de los campos selecionados*/
+input:focus, textarea:focus {
+    border-color: #ff08a0; /*Aqui cambiamos el color del borde*/
+    outline: none;
+}
+
+button {
+    background-color: #00a99d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;                 /* manita al pasar el ratón */
+}
+
+button:hover {
+    background-color: #f31414;
+}
+
+.borrar {
+background-color: #122423;
+}
+
+#pie{
+   color: white;
+   background-color: #12294a;
+   text-align: center;
+}
+
+
+
+
+
+
 
 
 

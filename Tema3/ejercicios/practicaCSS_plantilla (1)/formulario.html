@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscripción — Club de Informática SMR</title>
     <!-- 1. Enlaza aquí tu hoja de estilos externa: css/estilos.css -->
+     <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 <body>
+    <div id="cabecera">
     <h1>Club de Informática SMR</h1>
-    <p>Aprende, monta y repara con nosotros</p>
-
+    <p class="subtitulo">Aprende, monta y repara con nosotros</p>
+</div>
+   
     <nav>
         <a href="index.html">Inicio</a>
         <a href="formulario.html">Inscripción</a>
@@ -24,14 +27,14 @@
         <fieldset>
             <legend>Datos personales</legend>
 
-            <label for="nombre">Nombre y apellidos</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            <label for="nombre">Nombre y apellidos</label><hr>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><hr>
 
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="email" placeholder="tu@correo.es">
+            <label for="email">Correo electrónico</label><hr>
+            <input type="email" id="email" name="email" placeholder="tu@correo.es"><hr>
 
-            <label for="clave">Contraseña</label>
-            <input type="password" id="clave" name="clave">
+            <label for="clave">Contraseña</label><hr>
+            <input type="password" id="clave" name="clave"><hr>
 
             <label for="curso">Curso</label>
             <select id="curso" name="curso">
@@ -45,16 +48,16 @@
             <legend>Actividades</legend>
 
             <input type="checkbox" id="montaje" name="actividad" value="montaje">
-            <label for="montaje">Montaje de un PC</label>
+            <label for="montaje">Montaje de un PC</label><hr>
 
             <input type="checkbox" id="wifi" name="actividad" value="wifi">
-            <label for="wifi">Red Wi-Fi segura</label>
+            <label for="wifi">Red Wi-Fi segura</label><hr>
 
             <input type="checkbox" id="web" name="actividad" value="web" checked>
-            <label for="web">Primera web con HTML</label>
+            <label for="web">Primera web con HTML</label><hr>
 
             <input type="checkbox" id="torneo" name="actividad" value="torneo">
-            <label for="torneo">Torneo en red local</label>
+            <label for="torneo">Torneo en red local</label><hr>
         </fieldset>
 
         <fieldset>
@@ -64,17 +67,19 @@
             <label for="tarde">Tarde</label>
 
             <input type="radio" id="viernes" name="turno" value="viernes">
-            <label for="viernes">Viernes por la mañana</label>
+            <label for="viernes">Viernes por la mañana</label><hr>
 
-            <label for="comentarios">¿Algo que debamos saber?</label>
+            <label for="comentarios">¿Algo que debamos saber?</label><hr>
             <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
         </fieldset>
 
         <button type="submit">Enviar inscripción</button>
-        <button type="reset">Borrar</button>
+        <button type="reset" class="borrar">Borrar</button>
     </form>
 
     <hr>
+    <div id="pie">
     <p>© 2026 Club de Informática SMR · <a href="index.html">Volver al inicio</a></p>
+    </div>
 </body>
 </html>
