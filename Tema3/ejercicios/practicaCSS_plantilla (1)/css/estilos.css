@@ -114,7 +114,7 @@ ol {
 
 /*Aqui le damos estilo a los enlaces ya visitados*/
  a:visited {
-    color: #ed0b29; /*Aqui cambiamos el color*/
+    color: #000000; /*Aqui cambiamos el color*/
     text-decoration: underline; /*Aqui le ponemos un subrayado*/
 }
 
@@ -186,12 +186,12 @@ form {
 
    /*Aqui cambiamos el estilo de los campos de texto*/
 input[type="text"], input[type="email"], input[type="password"], select,textarea {
-    width: 90%;                     /* Ancho del campo */
-    padding: 8px;                   /* Relleno interior */
-    border: 2px solid #12294a;      /* Borde */
-    border-radius: 5px;             /* Esquinas redondeadas */
-    background-color: white;        /* Fondo */
-    margin: 5px 0;                  /* Separación entre campos */
+    width: 90%; /*Aqui seleccionamos el ancho del campo*/
+    padding: 8px; /*Aqui creamos una separación*/
+    border: 2px solid #12294a; /*Aqui ponemos el grosor, el estilo y el color*/
+    border-radius: 5px; /*Aqui le quitamos las esquinas*/
+    background-color: rgb(164, 191, 254); /*Aqui seleccionamos el color de fondo*/
+    margin: 5px 0; /*Aqui creamos una separación*/
 }
 
    /*Aqui cambiamos el color del borde de los campos selecionados*/
@@ -200,26 +200,30 @@ input:focus, textarea:focus {
     outline: none;
 }
 
+   /*Aqui cambiamos el estilo de los botones*/
 button {
-    background-color: #00a99d;
-    color: white;
+    background-color: #00a99d; /*Aqui cambiamos el color de fondo*/
+    color: white; /*Aqui cambiamos el color del texto*/
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;                 /* manita al pasar el ratón */
+    padding: 10px 20px; /*Aqui creamos una separación*/
+    border-radius: 5px; /*Aqui redondeamos las esquinas*/
+    cursor: pointer; /*Aqui ponemos una mano cuando pasamos por encima del botón*/
 }
 
+   /*Aqui cambiamos el estilo de cuando pasamos con el raton por el boton*/
 button:hover {
-    background-color: #f31414;
+    background-color: #f31414; /*Aqui cambiamos el color de fondo de cuando pasa por encima el ratón*/
 }
 
+   /*Aqui cambiamos el color del botón de borrar*/
 .borrar {
-background-color: #122423;
+background-color: #122423; /*Aqui cambiamos el color del fondo del botón de borrar*/
 }
 
-#pie{
-   color: white;
-   background-color: #12294a;
+   /*Aqui creamos el estilo del pie de pagina*/
+#pie p{
+   color: white; /*Aqui cambiamos el color del texto*/
+   background-color: #12294a; /*Aqui cambiamos el color del fondo*/
    text-align: center;
 }
 
