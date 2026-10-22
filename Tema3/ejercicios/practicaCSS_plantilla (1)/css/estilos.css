@@ -9,6 +9,76 @@
    /* Aqui cambiamos el color del Body, su estilo de letra y el color de fondo*/
    body {
       color: black;
-      font-family: 'Poppins', sans-serif;
-      background-color: #39FF88;
+      font-family:'Poppins', sans-serif;
+      background-color: #ffe0c2;
    }
+
+   /*En este paso vamos a crear la cabezera de la web*/
+   #cabecera{
+background-image: url("../img/banner1.png"); /*Aqui ponemos una imagen como fondo de pantalla de la cabezera*/
+background-repeat: no-repeat; /*Aqui ponemos para que la imagen de fondo no se repita y solo haya una*/
+background-position: center; /*Aqui centramos la posicion de la imagen de fondo*/
+background-size: cover;  /*Aqui rellenamos toda la caja*/
+text-align: center; /*Aqui centramos el texto que hay encima de la imagen*/
+color: #0cffa2; /*Aqui le cambiamos el color al texto que hay encima de la imagen*/
+padding: 40px 20px; /*Aqui ponemos el espacio que hay entre el borde y el contenido*/
+   }
+  
+   /*En este paso vamos a editar la clase del subtitulo de la cabezera*/
+.subtitulo {
+    font-style: italic; /*Aqui ponemos el texto en cursiva*/
+    font-size: 18px; /*Aqui cambiamos el tamaño de la letra del texto*/
+    text-align: center; /*Aqui centramos el el subtitulo*/
+}
+
+   /*Aqui vamos a dar estilo al menu de navegación*/
+nav {
+   background-color: #12294a; /*Aqui ponemos un color de fondo al menu*/
+   text-align: center; /*Aqui centramos los enlaces del menu*/
+   padding: 10px; /*Aqui creamos un espacio interrior para que los botones no se peguen al borde*/
+}
+
+   /*Aqui vamos a crear un estilo para que los enlaces sean botones*/
+nav a {
+   display: inline-block;  /*Aqui hacemos que los enlaces sean como cajas*/
+   text-decoration: none;  /*Aqui quitamos el subrayado de los enlaces*/
+   color: white; /*Aqui ponemos el color del texto de los botones*/
+   background-color: #f12b46; /*Aqui ponemos el color de fondo de los botones*/
+   padding: 8px 16px;  /*Aqui elegimos el espacio interior*/
+   margin: 4px; /*Aqui creamos una separación para que los botones no esten pegados*/
+   border-radius: 50px; /*Aqui hacemos los botones redondos quitandoles las esquinas*/
+   
+}
+
+   /*Aqui vamos a cambiar el color al pasar el ratón*/
+nav a:hover {
+   background-color: #c74cc1;   /*Aqui cambiamos el color de fondo cuando tenemos el ratón encima*/
+}
+
+   /*Aqui vamos a dar estilo a los h2*/
+h2 {
+   color: #cc0e0e; /*Aqui cambiamos el color de los h2*/
+    text-decoration: underline; /*Aqui subrallamos los h2 subrallar*/
+    text-decoration-color: rgb(144, 255, 151);/*Aqui cambiamos el color de los subrayados de los h2*/
+    text-decoration-style: wavy; /*Aqui curvamos el subrrayado*/
+}
+
+   /*Aqui vamos a dar estilo a los parrafos*/
+p{
+   font-size: 18px; /*Aqui le damos un tamaño de letra a los parrafos*/
+   line-height: 1.5; /*Aqui creamos un interlineado a los parrafos*/
+   text-align: justify; /*Aqui creamos la alineación justificada*/
+}
+
+   /*Aqui vamos a darle el mismo estilo a las 3 primeras columnas del index*/
+.Preguntasi {
+   background-color: #d59ad8;
+   border: 2px solid #12294a;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 10px;
+}
+
+
+
+
