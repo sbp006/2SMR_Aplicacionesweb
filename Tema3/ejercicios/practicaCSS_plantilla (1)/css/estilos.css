@@ -224,7 +224,7 @@ background-color: #122423; /*Aqui cambiamos el color del fondo del botón de bor
 #pie p{
    color: white; /*Aqui cambiamos el color del texto*/
    background-color: #12294a; /*Aqui cambiamos el color del fondo*/
-   text-align: center;
+   text-align: center; /*Aqui centramos el texto*/
 }
 
 
