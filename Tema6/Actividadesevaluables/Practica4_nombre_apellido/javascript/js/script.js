@@ -1,4 +1,4 @@
-// =========================================================
+/ =========================================================
 //  Práctica 4 — JavaScript
 //  Nombre y apellidos: Sergio Blanca Pancorbo
 //  Recuerda: cada bloque con un comentario escrito por ti
